@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/korttelikodit.css">
+
+	<title>Kouvolan Korttelikodit - Etusivu</title>
+	<link rel="shortcut icon" href="./img/logo/small-logo.png" type="image/png">
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+
+	<div class='nav-bar' id='myTopnav'>
+        <div class='nav-lining'>
+        	<a href="index.html" class="active">Etusivu</a>
+			<a href="yhdistys.html">Yhdistys</a>
+			<a href="ajankohtaista.html">Ajankohtaista</a>
+			<a href="palvelut.html">Palvelut</a>
+			<a href="korttelikodit.html">Korttelikodit</a>
+			<a href="liittyminen.html">Liittyminen</a>
+			<a href="yhteistiedot.html">Yhteystiedot</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+        </div>
+    </div>   
+    
+    <div class="lining">
+    	<a href="index.html"><img id='nav-logo' src='./img/logo/logo.png'/></a>
+	</div>
+   	
+   	<script>
+    	function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "nav-bar") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "nav-bar";
+		    }
+		}
+    </script>
+
+   	<!-- Main Picture -->
+   	<div id='main-pic' class="fade">
+		<div class='lining' id='main-pic-context'>
+			<h1>Tervetuloa!</h1>
+			<h3>Kouvolan Korttelikotiyhdistys ry.</h3>
+			<a href="yhdistys.html"><button>Lue Lisää</button></a>
+		</div>
+	</div>
+<!--
+	<script>
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+			var x = document.getElementById("main-pic");
+			
+		    if(slideIndex == 0){
+		    	x.style.background="url('./img/slide-1.png') no-repeat center center";
+		    	x.style.backgroundSize="cover";
+		    	slideIndex +=1;
+		    }else if(slideIndex == 1){
+		    	x.style.background="url('./img/slide-2.png') no-repeat center center";
+		    	x.style.backgroundSize="cover";
+		    	slideIndex +=1;
+		    }else if(slideIndex == 2){
+		    	x.style.background="url('./img/slide-3.png') no-repeat center center";
+		    	x.style.backgroundSize="cover";
+		    	slideIndex +=1;
+		    }else if(slideIndex == 3){
+		 		slideIndex = 0;
+		    	x.style.background="url('./img/slide-4.png') no-repeat center center";
+		    	x.style.backgroundSize="cover";
+		    }
+			
+		    setTimeout(carousel, 5000);
+		}
+	</script>
+-->
+
+	<!-- Timeline -->
+	<div class='spacing'>
+		<div class='lining'>
+			<h1>Ajankohtaista</h1>
+			<div class='flex'>
+				<div class='card'>
+					<div class="card-content">
+						<div class="card-img" 
+							style="background: url('./img/event/event (1).png') center bottom; background-size: cover">
+						</div>
+						<div class='middle'>
+							<a href="./img/event/event (1).png" target="blank">
+								<button>Lue Lisää</button>
+							</a>
+						</div>
+					</div>
+
+					<p>19.11.2018</p>
+					<h2>Jokituvalla Miestenpäivänä</h2>
+				</div>
+
+				<div class='card'>
+					<div class="card-content">
+						<div class="card-img" 
+							style="background: url('./img/event/event (2).png') center center; background-size: cover">
+						</div>
+						<div class='middle'>
+							<a href="./img/event/event (2).png" target="blank">
+								<button>Lue Lisää</button>
+							</a>
+						</div>
+					</div>
+
+					<p>14.11.2018, klo 11.00</p>
+					<h2>Duo Caldera, Jokituvalla</h2>
+				</div>
+
+				<div class='card'>
+					<div class="card-content">
+						<div class="card-img" 
+							style="background: url('./img/event/event (3).png') center top; background-size: cover">
+						</div>
+						<div class='middle'>
+							<a href="./img/event/event (3).png" target="blank">
+								<button>Lue Lisää</button>
+							</a>
+						</div>
+					</div>
+
+					<p>09.11.2018</p>
+					<h2>Jokituvan Isänpäivän kakkukahvit</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Partners -->
+    <div class='partners spacing'>
+    	<div class='lining'>
+    		<h1>Our Partners</h1>
+    		<div class="flex">
+    			<div>
+    				<a href='index.html'>
+						<img src='./img/logo/logo.png'/>
+					</a>
+    			</div>
+    			<div>
+    				<a href='https://kymijoentukipuu.weebly.com/' target='_blank'>
+						<img src='./img/logo/logo-2.png'/>
+					</a>
+    			</div>
+    			<div>
+    				<a href='https://www.kouvolanseurakunnat.fi/kouvolan-seurakunta' target='_blank'>
+						<img src='./img/logo/logo-3.svg'/>
+					</a>
+    			</div>
+    			<div>
+    				<a href='https://www.kouvola.fi/' target='_blank'>
+						<img src='./img/logo/logo-4.png'/>
+					</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+	<!-- Ruokapankki -->
+
+	<div class='ruokapankki'>
+		<div class="lining">
+			<div class="flex">
+				<div id="flex1">
+					<h1>Ruokapankki</h1>
+					<p>
+						Ruokapankin toimintaan tulee muutoksia 4.6.2018 alkaen. Jaettava ruoka-apu saadaan lahjoituksina alueen yrityksiltä. Emme voi vaikuttaa lahjoitusten sisältöön ja määrään. Syksyllä 2016 Kouvolan Korttelikotiyhdistys aloitti koulujen ylijäämäruokajakelun. Koulujen ylijäämäruuan jakelua ei ole koulujen lomien aikana.
+					</p>
+					<a href="ruokapankki.html"><button>Lue Lisää</button></a>
+				</div>
+
+				<div id="flex2">
+					<p>
+						<b>Korttelikoti Jokitupa</b><br/>
+						Keskusaukio 1,<br/>
+						45700 Kuusankoski
+						<br/><br/>
+						<b>Korttelikoti Oravanpesä</b><br/>
+						Viialankatu 5 C 73,<br/>
+						45150 Kouvola
+						<br/><br/>
+						<b>Korttelikoti Viitatupa</b><br/>
+						Jukolantie 6-8 B 2,<br/>
+						45200 Kouvola
+					</p>
+				</div>		
+			</div>
+		</div>
+	</div>
+
+	<!-- Social Media -->
+	<div class='social-media spacing'>
+		<div class="lining">
+            <h2>Seuraa meitä myös FaceBookissa</h2>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkouvolankorttelikodit%2F&tabs&width=500&height=181&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500"height="181" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    	</div>
+    </div>
+
+
+    <!-- Contact -->
+
+    <div class='contact spacing'>
+		<div class="lining flex">
+			<div class="flex-1">
+				<h3>Tiedotus</h3>
+                <h1>Soita 041 750 6975</h1>
+			</div>
+			<div class="flex-2">
+				<p>
+                    <i class="fas fa-user"></i>
+                </p>
+                <p>
+                    Toimistotyöntekijä<br/>
+                    toimisto@kouvolankorttelikodit.fi
+                </p>
+			</div>
+			<div class="flex-3">
+				<p>
+                    <i class="fas fa-phone"></i>
+                </p>
+                <p>
+                    puh. 044 766 7340<br/> 
+                    Mon-Fri 8.00 - 18.00
+                </p>
+			</div>
+			<div class="flex-4">
+				<p>
+                    <i class="fas fa-map-marker-alt"></i>
+                </p>
+                <p>
+                    Savonkatu 23,<br/>
+                    45100 Kouvola
+                </p>
+			</div>
+		</div>
+	</div>
+
+	<div class='footer'>
+        <p>© 2009 - 2018 Kouvolan Korttelikotiyhdistys Ry.</p>
+    </div>  
+
+	<script src="js/main.js"></script>
+</body>
+</html>

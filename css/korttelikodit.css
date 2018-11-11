@@ -1,0 +1,276 @@
+.side-nav{
+	width: 25%;
+}
+
+.main-context{
+	width: 70%;
+  margin-bottom: 1.5em;
+}
+.main-context h2{
+	color: #e54045;
+	margin-top: 0;
+}
+
+.main-context h3{
+  color: #e54045;
+}
+
+.main-context p{
+	padding: 2em;
+	background: white;
+  margin: 1.5em 0;
+}
+
+.mar-top{
+  margin-top: 2em;
+}
+
+
+
+
+
+/* Side Nav */
+.side-nav h3{
+  background: #e54045;
+  padding: 0.8em 1em;
+  margin: 0;
+  color: white;
+  font-weight: normal;
+  transition: 0.5s ease-out;  
+}
+
+.side-nav h3:hover{
+  padding-left: 1.5em;
+}
+
+.side-nav ul{
+  background: white;
+  margin-top: 0;
+  padding: 1em 3em;
+}
+
+.side-nav ul li{
+  list-style: none;
+  padding: 0.2em 0;
+  margin-left: -0.5em;
+  transition: 0.5s ease-out;
+}
+
+.side-nav ul li:hover{
+  margin-left: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+  .side-nav{
+    width: 100%;
+  }
+
+  .main-context{
+    width: 100%;
+    margin-top: 2.5em;
+  }
+}
+
+/* Breadcrumb */
+.breadcrumb ul{
+  padding: 0;
+  margin-top: -1.5em;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb li + li:before{
+    padding: 0.5em;
+    color: black;
+    content: ">\00a0";
+}
+
+.available a{
+  color: #e54045;
+}
+
+.available a:hover{
+  text-decoration: underline;
+}
+
+
+/* Main Context */
+.picture-main{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: -70px;
+  z-index: -1;
+}
+
+.picture-main img{
+  display: block;
+}
+
+.picture-box{
+  margin: 0 5em;
+  background: white;
+  padding: 0.5em 1.5em 0 1.5em;
+  text-align: center;
+}
+
+.picture-box img{
+  text-align: center;
+  width: 15em;
+  height: auto;
+}
+
+.picture-box p{
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .picture-main{
+    position: static;
+    margin: 0;
+  }
+
+  .picture-box{
+    margin: 0;
+  }
+}
+
+#hallitus .flex > div{
+  flex: 1;
+}
+
+#hallitus .flex{
+  background: white;
+}
+
+#hallitus p{
+  margin: 0;
+}
+
+.picture{
+  width: 100%;
+  margin: 0;
+}
+
+#autoteam{
+  background: white;
+}
+
+#autoteam p{
+  margin-bottom: 0em;
+  padding-bottom: 0;
+}
+
+#autoteam ul{
+  margin: 2em;
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+
+#autoteam li{
+  padding: 0 1em;
+}
+
+/* Yhteistiedot */
+#yhteistiedot .flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+#yhteistiedot > div{
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  #yhteistiedot > div{
+    width: 100%;
+  }
+}
+
+
+/* Hanke */
+.picture2{
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+
+@media screen and (max-width: 800px){
+  .picture2{
+    width: 100%;
+  }
+}
+
+#hanke1{
+  background: white;
+}
+
+#hanke1 p{
+  margin-bottom: 0em;
+  padding-bottom: 0;
+}
+
+#hanke1 ul{
+  margin: 2em;
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+
+#hanke1 li{
+  padding: 0 1em;
+} 
+
+#hanke .flex > div{
+  width: 48%;
+}
+
+@media screen and (max-width: 800px) {
+  #hanke .flex > div{
+    width: 100%;
+  }
+
+}
+
+
+/* Tule Toimintaamme */
+#tule-toimintaamme .flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+#tule-toimintaamme > div{
+  width: 48%;
+}
+
+@media screen and (max-width: 1200px) {
+  #tule-toimintaamme > div{
+    width: 100%;
+  }
+}
+
+
+/* Liity */
+#liity{
+  background: white;
+}
+
+#liity p{
+  margin-bottom: 0em;
+  padding-bottom: 0;
+}
+
+#liity ul{
+  margin: 2em;
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+
+#liity li{
+  padding: 0 1em;
+} 
