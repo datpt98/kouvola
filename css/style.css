@@ -91,7 +91,7 @@ button:hover, button:focus{
 }
 
 #nav-logo{
-  width: 15em;
+  width: 20em;
   margin-bottom: 2.5em;
 }
 
@@ -119,6 +119,10 @@ button:hover, button:focus{
     float: none;
     display: block;
     text-align: left;
+  }
+
+  #nav-logo{
+    width: 15em;
   }
 }
 
