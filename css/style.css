@@ -97,7 +97,7 @@ button:hover, button:focus{
 
 
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .nav-bar a{
     display: none;
   }
@@ -202,7 +202,7 @@ button:hover, button:focus{
 }
 
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .card{
     width: 100%;
   }
@@ -235,7 +235,7 @@ button:hover, button:focus{
   margin: 2em 0;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .partners .flex > div{
     width: 40%;
   }
@@ -267,7 +267,7 @@ button:hover, button:focus{
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .ruokapankki .flex #flex2{
     display: none;
   }

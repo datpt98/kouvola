@@ -61,7 +61,7 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .side-nav{
     width: 100%;
   }
@@ -129,7 +129,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .picture-main{
     position: static;
     margin: 0;
@@ -186,7 +186,7 @@
   width: 48%;
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #yhteistiedot > div{
     width: 100%;
   }
@@ -201,7 +201,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 800px){
   .picture2{
     width: 100%;
   }
@@ -230,7 +230,7 @@
   width: 48%;
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   #hanke .flex > div{
     width: 100%;
   }
@@ -248,7 +248,7 @@
   width: 48%;
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #tule-toimintaamme > div{
     width: 100%;
   }
