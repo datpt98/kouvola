@@ -124,7 +124,7 @@ button:hover, button:focus{
 
 /* Main Picture */
 #main-pic{
-  background: url('../img/slide-1.png');
+  background: url('../img/slide-1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
