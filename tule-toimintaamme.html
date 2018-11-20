@@ -17,29 +17,65 @@
 
 <body>
 	<!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+    	<a href="index.html">Etusivu</a>
+		<a href="yhdistys.html">Yhdistys</a>
+		<a href="ajankohtaista.html">Ajankohtaista</a>
+		<div class="dropdown">
+    		<button class="dropbtn">
+    			<a href="palvelut.html">Palvelut &nbsp
+    				<i class="fa fa-caret-down"></i>
+    			</a>
+    		</button>
 
-	<div class='nav-bar' id='myTopnav'>
-        <div class='nav-lining'>
-        	<a href="index.html">Etusivu</a>
-			<a href="yhdistys.html">Yhdistys</a>
-			<a href="ajankohtaista.html">Ajankohtaista</a>
-			<a href="palvelut.html">Palvelut</a>
-			<a href="korttelikodit.html">Korttelikodit</a>
-			<a href="liittyminen.html"  class="active">Liittyminen</a>
-			<a href="yhteistiedot.html">Yhteystiedot</a>
-			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-				<i class="fa fa-bars"></i>
-			</a>
-        </div>
-    </div>   
-   	
+	    	<div class="dropdown-content">
+		      <a href="kotiapu.html">KotiApu</a>
+		      <a href="autoteam.html">AutoTeam</a>
+		      <a href="ruokapankki.html">Ruokapankki</a>
+		    </div>
+	  	</div> 
+    	<div class="dropdown">
+    		<button class="dropbtn">
+    			<a href="korttelikodit.html">Korttelikodit &nbsp
+    				<i class="fa fa-caret-down"></i>
+    			</a>
+    		</button>
+
+	    	<div class="dropdown-content">
+		      <a href="jokitupa.html">Jokitupa</a>
+		      <a href="oravanpesä.html">Oravanpesä</a>
+		      <a href="viitatupa.html">Viitatupa</a>
+		    </div>
+	  	</div> 
+	  	
+	  	<div class="dropdown">
+    		<button class="dropbtn active">
+    			<a href="liittyminen.html">Liittyminen &nbsp
+    				<i class="fa fa-caret-down"></i>
+    			</a>
+    		</button>
+
+	    	<div class="dropdown-content">
+	    		<a href="tule-toimintaamme.html">Tule Toimintaamme</a>
+				<a href="liity-jäseneksi.html">Liity Jäseneksi</a>
+				<a href="hanke.html">Hanke</a>
+		    </div>
+	  	</div> 
+
+
+		<a href="yhteistiedot.html">Yhteystiedot</a>
+	  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  		<i class="fa fa-bars"></i>
+	  	</a>
+	</div>  
+
    	<script>
-    	function myFunction() {
+		function myFunction() {
 		    var x = document.getElementById("myTopnav");
-		    if (x.className === "nav-bar") {
+		    if (x.className === "topnav") {
 		        x.className += " responsive";
 		    } else {
-		        x.className = "nav-bar";
+		        x.className = "topnav";
 		    }
 		}
     </script>
